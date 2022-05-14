@@ -2,7 +2,6 @@
 def main():
     N, X = map(int, input().split())
     drink = 0
-    i = 0
     for i in range(N):
         V, P = map(int, input().split())
         drink += V * P
