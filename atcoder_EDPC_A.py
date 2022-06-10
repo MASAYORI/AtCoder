@@ -9,7 +9,7 @@ def main():
         cost1 = dp[i-1] + abs(h[i-1] - h[i])
         cost2 = dp[i-2] + abs(h[i-2] - h[i])
         dp[i] = min(cost1, cost2)
-    print(dp[n])
+print(dp[n])
 
 
 if __name__ == '__main__':
